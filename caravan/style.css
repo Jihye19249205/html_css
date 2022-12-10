@@ -296,13 +296,18 @@ footer {
     padding-right: 3%;
   }
 
-  .instagram-box {
-    padding-top: 49%;
-    width: 49%;
+  .instagram {
+    width: 100%;
+    display: block;
   }
 
-  .instagram-box:nth-child(odd) {
-    margin-right: 4px;
+  .instagram-box {
+    padding-top: 48%;
+    width: 48%;
+  }
+
+  .instagram-box:nth-child(even) {
+    margin-left: 4px;
   }
 
   .pagination {
